@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let g = (Math.random() * 10) + 1;
+        g = Math.round(g)
+        const dd = new Date().getDate(); // mengambil hari saat ini
+        const mm = 5;
+        const yyyy = new Date().getFullYear(); // mengambil tahun saat ini
+        let nn = (Math.random() * 10) + 1;
+        nn = Math.round(nn)
+        const gddmmyyynn = `${ g }${ dd }${ mm }${ yyyy }${ nn }`;
+
+        console.log(gddmmyyynn);
+
+
+    </script>
+</body>
+
+</html>
